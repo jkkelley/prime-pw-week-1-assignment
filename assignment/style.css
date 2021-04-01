@@ -1,11 +1,111 @@
 /* Give your page a fun background color */
-
+/* check */
 /* Make the header and footer a different color from the background */
-
+/* check */
 /* Align the h1 containing your name in the center of the header*/
-
+/* check */
 /* Make your p tag a different color and italic */
-
+/* check */
 /* Put a border around your image */
-
+/* check */
 /* Change the font-family of your list */
+/* check */
+
+body {
+  margin: 0;
+  background-color: yellow;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem; /* This is the footer height */
+}
+
+.header {
+  background: red;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h1 {
+  margin: 0;
+  color: white;
+  font-size: 25px;
+}
+
+#image img.programmer {
+  width: 200px;
+  height: 200px
+  position: static;
+  margin-top: 50px;
+  margin-left: 50px;
+  border: 3px solid #555;
+}
+
+.facts {
+  position: static;
+  font-size: 15px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.footer {
+  position: absolute;
+  background: red;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  height: 2.5rem;
+}
+
+.footer p {
+  display: flex;
+  font-size: 10px;
+  font-style: italic;
+}
+
+
+
+/*
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  text-align: left;
+  font-style: italic;
+}
+*/
+
+/* This was the last footer I worked on
+.footer {
+  position: bottom;
+  background: red;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.footer p {
+  margin: 0;
+  color: white;
+  font-style: italic;
+  font-size: 10px;
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(255, 0, 0);
+}
+*/
